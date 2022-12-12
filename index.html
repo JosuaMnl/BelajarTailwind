@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <script>
     tailwind.config = {
       darkMode: "class",
       theme: {
@@ -41,15 +42,15 @@
         },
       },
     };
-  </script>
-  <style type="text/tailwindcss">
+  </script> -->
+  <!-- <style type="text/tailwindcss">
     /* *{
             border:  1px solid red;
         } */
       #toggle:checked ~ label div.toggle-circle {
         @apply translate-x-3;
       }
-    </style>
+    </style> -->
 </head>
 
 <body class="dark:bg-slate-800 dark:text-slate-200">
@@ -316,76 +317,58 @@
       <span class="self-end">@JosuaManalu</span>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar1.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group">
+      <div class="grid-card-img bg-[url('/img/grid/gambar1.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar2.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group md:col-start-3">
+      <div class="grid-card-img bg-[url('/img/grid/gambar2.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar3.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group">
+      <div class="grid-card-img bg-[url('/img/grid/gambar3.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar4.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group">
+      <div class="grid-card-img bg-[url('/img/grid/gambar4.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar5.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group">
+      <div class="grid-card-img bg-[url('/img/grid/gambar5.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-2 overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar6.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group md:col-start-2">
+      <div class="grid-card-img bg-[url('/img/grid/gambar6.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-4 overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar7.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group md:col-start-4">
+      <div class="grid-card-img bg-[url('/img/grid/gambar7.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar8.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group">
+      <div class="grid-card-img bg-[url('/img/grid/gambar8.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar9.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group md:col-start-3">
+      <div class="grid-card-img bg-[url('/img/grid/gambar9.jpg')]">
       </div>
     </div>
 
-    <div
-      class="aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
-      <div
-        class="w-full h-full bg-[url('/img/grid/gambar10.jpg')] bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+    <div class="grid-card group md:col-start-3">
+      <div class="grid-card-img bg-[url('/img/grid/gambar10.jpg')]">
       </div>
     </div>
   </div>
+
+  <h1>Hello Josua</h1>
 
   <div class="mb-96"></div>
 
